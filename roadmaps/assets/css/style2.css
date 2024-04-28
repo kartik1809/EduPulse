@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(21, 20, 20);
+}
+.roles{
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.line{
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    width: 100%;
+    color: black;
+    background: rgb(237,237,237);
+    background: radial-gradient(circle, rgba(237,237,237,1) 0%, rgba(195,195,201,1) 33%, rgba(0,212,255,1) 100%);
+}
+.skill{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 0px 10px 0px 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background: #1e1e1e;
+    cursor: pointer;
+    color: greenyellow;
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+  }
+  
+  button:hover {
+    animation: a 0.5s 1 linear;
+  }
+  
+  @keyframes a {
+    0% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    25% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    50% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    75% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+.burger{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* /----background----/ */
+.svg-frame {
+    position: relative;
+    top: -150px;
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .svg-frame svg {
+    position: absolute;
+    transition: .5s;
+    z-index: calc(1 - (0.2 * var(--j)));
+    transform-origin: center;
+    width: 344px;
+    height: 344px;
+    fill: none;
+  }
+  
+  .svg-frame:hover svg {
+    transform: rotate(-80deg) skew(30deg) translateX(calc(45px * var(--i))) translateY(calc(-35px * var(--i)));
+  }
+  
+  .svg-frame svg #center {
+    transition: .5s;
+    transform-origin: center;
+  }
+  
+  .svg-frame:hover svg #center {
+    transform: rotate(-30deg) translateX(45px) translateY(-3px);
+  }
+  
+  #out2 {
+    animation: rotate16 7s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #out3 {
+    animation: rotate16 3s ease-in-out infinite alternate;
+    transform-origin: center;
+    stroke: #ff0;
+  }
+  
+  #inner3,
+  #inner1 {
+    animation: rotate16 4s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #center1 {
+    fill: #ff0;
+    animation: rotate16 2s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  @keyframes rotate16 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
