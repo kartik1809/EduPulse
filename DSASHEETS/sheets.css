@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #030635; /* Dark background color */
+    background: linear-gradient(135deg, #030635 0%, #0e141e 100%);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header {
+    background-color: #1f2732;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #2c3e50;
+    position: relative; /* For particle animation */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 20px 0;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.link-button:hover {
+    background-color: #27ae60;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background-color: #1f2732;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Particle Animation */
+.particle {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: particleFlow linear infinite;
+}
+
+@keyframes particleFlow {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+.bg-image {
+    position: absolute;
+    right: 10px;
+    top: 300px;
+}
