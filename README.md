@@ -14,8 +14,8 @@ curated DSA resources, job opportunities, community engagement, and more.
 8. Designed to teach from scratch to an advanced level, providing users with all the necessary resources and reducing hurdles.
 
 # Team Members:
---> Palak Bansal
---> Kartik Pokhriyal
---> Kanak Bhavneshwar Pandey
---> Mohammed Sadique
+--> Palak Bansal <br/>
+--> Kartik Pokhriyal <br/>
+--> Kanak Bhavneshwar Pandey <br/>
+--> Mohammed Sadique <br/>
 
