@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+header{
+    /* position: relative; */
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+}
+
+
+.Quizes{
+    width: 80%;
+    margin-top: 30px;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.btn-quiz{
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    width: 230px;
+    color: blue;
+    background-color: #FDB44B;
+    transition: 0.2s ease-in;
+}
+
+.btn-quiz:hover{
+    transform: scale(1.03);
+    color: whitesmoke ;
+    background-color:rgb(69, 69, 196);
+}
+.link-nav a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+.container{
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+
+#ProfilePhoto{
+    width: 12%;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 60%;
+}
+
+.link-nav{
+    display: inline;
+    text-align: center;
+}
+
+.link-nav a:hover{
+    color: #6C63FF;
+    cursor: pointer;
+    border-bottom: 3px solid #6C63FF;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+.menu{
+    left: 200px;
+    position: absolute;
+    margin: 10px;
+    /* padding-left: 10px; */
+    border-radius: 6px;
+    /* padding: 20px; */
+    width: 200px;
+    box-shadow: -1px 0px 11px -5px #a3a3a3;
+    background: whitesmoke;
+    transition: 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+    float: left;
+ 
+}
+
+li{
+    text-decoration: none;
+}
+.menu ul li{
+    margin-top: 5px;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+
+.active{
+  
+  transform: scale(1.025);
+  visibility: visible;
+  opacity: 1;
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #555;
+}
+
+span{
+    font-size: 14px;
+    color: #cecece;
+}
+/* 
+a{
+  font-size: 16px;
+    color: #558;
+  transition: 0.5s;
+} */
+
+a:hover{
+   color: #FDB44B;
+}
+
+
+p{
+   opacity: 0.40;
+  
+  
+}
+
+
+
+section{
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 40px;
+    
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    /* float: right; */
+    margin-bottom: 0;
+    bottom: 0;
+    margin-right: 10px;
+    align-items: flex-end;
+    
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* CSS */
+#start{
+    text-decoration: none;
+    align-items: center;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.15;
+    padding: 10px 31px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  
+    
+    
+  }
+  
+#start:active {
+    background-color: #006AE8;
+  }
+  
+#btn-start:hover {
+    background-color: #1C84FF;
+}
+  
+
+#text-section{
+    margin-bottom:59px ;
+}
+
+
+.search{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    /* width: 400px; */
+}
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -80px;
+}
+
+
+.input-search{
+    width: 300px;
+    height: 30px;
+    border: none;
+    color: #1C84FF;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    border-bottom: 2px solid #1C84FF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-search:active{
+    border: none;
+}
+input:focus{
+    outline: 0;
+    /* box-shadow: 0 0 0 0.15rem rgb(49, 49, 47); */
+    transform: scale(1.00);
+}
+.btn-quiz {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  &:after {
+    position: absolute;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  &:hover {
+    cursor: pointer;
+    &:after {
+      width: 100%;
+      left: 0;
+    }
+    
+    &:nth-of-type(6) {
+      border-radius: 30px;
+    }
+    &:nth-of-type(6):after {
+      width: 0%;
+    }
+}
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the h2 element */
+  h2 {
+    animation: fadeInUp 2s ease forwards; /* adjust duration and easing as needed */
+  }
+
+  body{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  }
+  .bn30 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  }
+  
+  .bn30 .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  }
+  
+  .bn30:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+  }
+  
+  .bn30:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  }
+  
+  .bn30:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  }
+  ← See mo
