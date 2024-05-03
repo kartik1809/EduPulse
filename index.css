@@ -2428,3 +2428,51 @@
     line-height: 24px;
   }
 }
+
+
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: rgb(51, 225, 74);
+  border-radius: 30em;
+  border-style: none;
+  /* box-shadow: #ADCFFF 0 -12px 6px inset; */
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 0.9rem !important;
+  font-weight: 700;
+  /* letter-spacing: -.24px; */
+  margin: 0;
+  outline: none;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  box-shadow: aqua 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}

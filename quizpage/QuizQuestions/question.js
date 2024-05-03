@@ -35,46 +35,6 @@ function updatecount (){
 
 const quizData = [
     {
-      question: "HTML stands for?",
-      a: "HyperLink Markup Language",
-      b: "HyperText Markup Language",
-      c: "Home Tool Markup Language",
-      d: "HyperText Multi Language",
-      correct: "b",
-    },
-    {
-      question: "Which of these is a Programming Language?",
-      a: "HyperText Markup Language",
-      b: "Cascading StyleSheet",
-      c: "Twitter Bootstrap",
-      d: "JavaScript",
-      correct: "d",
-    },
-    {
-      question: "What is Computer Coding?",
-      a: "A Radio Show",
-      b: "List of Functions",
-      c: "Giving Instructions to Computer",
-      d: "StyleSheets",
-      correct: "c",
-    },
-    {
-      question: "true is a",
-      a: "Boolean",
-      b: "String",
-      c: "Number",
-      d: "BigInt",
-      correct: "a",
-    },
-    {
-      question: "Computer only Understand",
-      a: "Assembly Language",
-      b: "High Level Language",
-      c: "Machine Language",
-      d: "Application",
-      correct: "c",
-    },
-    {
       question: "What does the len() function in Python do?",
       a: "Returns the number of items in a list",
       b: "Returns the length of a string",
