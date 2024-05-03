@@ -74,6 +74,46 @@ const quizData = [
       d: "Application",
       correct: "c",
     },
+    {
+      question: "What does the len() function in Python do?",
+      a: "Returns the number of items in a list",
+      b: "Returns the length of a string",
+      c: "Returns the size of a file",
+      d: "Returns the memory usage of an object",
+      correct: "a",
+    },
+    {
+      question: "Which of the following data types is immutable in Python?",
+      a: "List",
+      b: "Dictionary",
+      c: "Tuple",
+      d: "Set",
+      correct: "c",
+    },
+    {
+      question: "What does the continue keyword do in a loop?",
+      a: "Terminates the loop",
+      b: "Skips the rest of the code inside the loop for the current iteration and continues with the next iteration",
+      c: "Breaks the loop",
+      d: "Restarts the loop from the beginning",
+      correct: "b",
+    },
+    {
+      question: "Which method is used to add an element to the end of a list in Python?",
+      a: "append()",
+      b: "extend()",
+      c: "add()",
+      d: "insert()",
+      correct: "a",
+    },
+    {
+      question: "What is the purpose of the __init__ method in Python classes?",
+      a: "To initialize the class variables",
+      b: "To define the constructor of the class",
+      c: "To destroy an object",
+      d: "To return the string representation of an object",
+      correct: "b",
+    },
   ];
   
   const answerEls = document.querySelectorAll(".answer");
